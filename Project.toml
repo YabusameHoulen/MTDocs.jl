@@ -1,0 +1,13 @@
+name = "MyDocs"
+uuid = "6840f4e9-372c-4ead-a30f-d3ae08b1fd88"
+authors = ["YabusameHoulen <yabusamehour@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
