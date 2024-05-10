@@ -1,9 +1,8 @@
 using Documenter
 using DocumenterVitepress
 using MyDocs
-using LiveServer
 
-DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
+# DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
 
 makedocs(;
     modules=[MyDocs],
@@ -19,7 +18,7 @@ makedocs(;
     ],
     warnonly = true,
 )
-serve(;dir = "build/final_site/")
+
 
 deploydocs(;
     repo="github.com/YabusameHoulen/MyDocs",
