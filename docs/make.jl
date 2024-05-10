@@ -7,6 +7,7 @@ using MyDocs
 makedocs(;
     modules=[MyDocs],
     authors="YabusameHoulen <yabusamehour@gmail.com> and contributors",
+    repo="https://github.com/YabusameHoulen/MyDocs",
     sitename="MyDocs",
     format=DocumenterVitepress.MarkdownVitepress(;
         repo="https://github.com/YabusameHoulen/MyDocs",
@@ -21,7 +22,7 @@ makedocs(;
 
 
 deploydocs(;
-    repo="github.com/YabusameHoulen/MyDocs",
+    repo="github.com/YabusameHoulen/MyDocs.git",
+    devbranch = "master",
     push_preview=true,
-    devbranch="master",
 )
