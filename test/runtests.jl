@@ -2,5 +2,6 @@ using MyDocs
 using Test
 
 @testset "MyDocs.jl" begin
-    # Write your tests here.
+    @test 1 == 1
+    @test hello_world() === nothing
 end
