@@ -20,7 +20,6 @@ makedocs(;
     warnonly=true,
 )
 
-
 deploydocs(;
     repo="github.com/YabusameHoulen/MTDocs.jl.git",
     devbranch="master",
