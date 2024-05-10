@@ -1,6 +1,7 @@
 using Documenter
 using DocumenterVitepress
 using MyDocs
+using LiveServer
 
 # DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
 
