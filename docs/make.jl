@@ -22,7 +22,7 @@ makedocs(;
 
 
 deploydocs(;
-    repo="github.com/YabusameHoulen/MTDocs.git",
+    repo="github.com/YabusameHoulen/MTDocs.jl.git",
     devbranch="master",
     push_preview=true,
 )
