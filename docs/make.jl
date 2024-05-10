@@ -1,6 +1,6 @@
-using MyDocs
 using Documenter
 using DocumenterVitepress
+using MyDocs
 
 DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
 
