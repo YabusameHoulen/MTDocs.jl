@@ -1,14 +1,7 @@
-```@meta
-CurrentModule = MyDocs
-```
+# YourPackage.jl
 
-# MyDocs
-
-Documentation for [MyDocs](https://github.com/YabusameHoulen/MyDocs.jl).
-
-```@index
-```
+Documentation for `YourPackage.jl`.
 
 ```@autodocs
-Modules = [MyDocs]
+Modules=[MyDocs]
 ```
