@@ -1,26 +1,25 @@
 using Documenter
 using DocumenterVitepress
 using MyDocs
+using LiveServer
 
 DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
 
 makedocs(;
     modules=[MyDocs],
     authors="YabusameHoulen <yabusamehour@gmail.com> and contributors",
-    repo="https://github.com/YabusameHoulen/MyDocs",
     sitename="MyDocs",
     format=DocumenterVitepress.MarkdownVitepress(;
-        canonical="https://YabusameHoulen.github.io/MyDocs",
-        edit_link="master",
+        repo="https://github.com/YabusameHoulen/MyDocs",
         devurl = "dev",
         deploy_url = "YabusameHoulen.github.io/MyDocs",
-        assets=String[],
     ),
     pages=[
         "Home" => "index.md",
     ],
     warnonly = true,
 )
+serve(;dir = "build/final_site/")
 
 deploydocs(;
     repo="github.com/YabusameHoulen/MyDocs",
