@@ -13,7 +13,6 @@ makedocs(;
         repo="https://github.com/YabusameHoulen/MTDocs.jl",
         devurl="dev",
         devbranch="master",
-        deploy_url="MTDocs.jl/",
     ),
     pages=[
         "Home" => "index.md",
@@ -24,5 +23,6 @@ makedocs(;
 deploydocs(;
     repo="github.com/YabusameHoulen/MTDocs.jl.git",
     devbranch="master",
+    branch = "gh-pages",
     push_preview=true,
 )
