@@ -13,7 +13,7 @@ makedocs(;
         repo="https://github.com/YabusameHoulen/MTDocs.jl",
         devurl="dev",
         devbranch="master",
-        deploy_url="YabusameHoulen.github.io/MTDocs.jl/",
+        deploy_url="MTDocs.jl/",
     ),
     pages=[
         "Home" => "index.md",

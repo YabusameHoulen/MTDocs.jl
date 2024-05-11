@@ -8,7 +8,7 @@ hero:
   tagline: Beautiful and flexible visualizations of high dimensional data
   image:
     src: /logo.png
-    alt: 这里没有图片显示是为什么呢
+    alt: 这里没有图片显示是为什么呢,不应该啊
   actions:
     - theme: brand
       text: Getting Started
