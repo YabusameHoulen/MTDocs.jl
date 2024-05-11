@@ -1,7 +1,6 @@
 using Documenter
 using DocumenterVitepress
 using MyDocs
-using LiveServer
 
 # DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
 
@@ -13,7 +12,8 @@ makedocs(;
     format=DocumenterVitepress.MarkdownVitepress(;
         repo="https://github.com/YabusameHoulen/MTDocs.jl",
         devurl="dev",
-        deploy_url="YabusameHoulen.github.io/MTDocs.jl",
+        devbranch="master",
+        deploy_url="YabusameHoulen.github.io/MTDocs.jl/",
     ),
     pages=[
         "Home" => "index.md",
