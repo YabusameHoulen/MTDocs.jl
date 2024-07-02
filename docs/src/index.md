@@ -4,10 +4,10 @@
 layout: home
 
 hero:
-  name: "PairPlots"
-  tagline: Beautiful and flexible visualizations of high dimensional data
+  name: "      ₍ᐢ˶˃ ˂˶ᐢ₎         "
+  tagline: 一个赛博炼金炉和一些奇奇怪怪的笔记
   image:
-    src: /logo.png
+    src: /qpchan_logo.png
     alt: 把路径对上应该就能显示正确了
   actions:
     - theme: brand
@@ -34,6 +34,10 @@ hero:
     details: Highly configurable and themeable using the Makie plotting package.
     link: https://docs.makie.org/stable -->
 ---
+```
+
+```@raw html
+<p style="margin-bottom:2.5cm"></p>
 ```
 
 This package produces pair plots, otherwise known as corner plots or scatter plot matrices: grids of 1D and 2D histograms that allow you to visualize high dimensional data. Both Julia and Python are supported (PairPlots.jl and pairplots.py).
