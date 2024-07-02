@@ -1,3 +1,4 @@
+using Documenter
 using DocumenterVitepress
 
 # DocMeta.setdocmeta!(MyDocs, :DocTestSetup, :(using MyDocs); recursive=true)
